@@ -6,7 +6,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap");
 * {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   margin: 0%;
   padding: 0%;
 }
@@ -47,18 +47,18 @@ body .nav .title {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   font-size: 3vw;
   -webkit-transition-property: all;
   transition-property: all;
   -webkit-transition-duration: 0.5s;
-          transition-duration: 0.5s;
-  -webkit-transition: border-radious .01s;
-  transition: border-radious .01s;
+  transition-duration: 0.5s;
+  -webkit-transition: border-radious 0.01s;
+  transition: border-radious 0.01s;
 }
 
 body .nav .cards {
@@ -68,16 +68,16 @@ body .nav .cards {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   -webkit-transition-property: all;
   transition-property: all;
   -webkit-transition-duration: 0.5s;
-          transition-duration: 0.5s;
+  transition-duration: 0.5s;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 body .nav .cards .inbetween {
@@ -87,18 +87,18 @@ body .nav .cards .inbetween {
   display: flex;
   margin: 20px;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 body .nav .cards .inbetween .card {
   position: relative;
   width: 350px;
   height: 350px;
-  -webkit-transition: height .5s, -webkit-transform .5s;
-  transition: height .5s, -webkit-transform .5s;
-  transition: height .5s, transform .5s;
-  transition: height .5s, transform .5s, -webkit-transform .5s;
+  -webkit-transition: height 0.5s, -webkit-transform 0.5s;
+  transition: height 0.5s, -webkit-transform 0.5s;
+  transition: height 0.5s, transform 0.5s;
+  transition: height 0.5s, transform 0.5s, -webkit-transform 0.5s;
 }
 
 body .nav .cards .inbetween .card .subcard {
@@ -107,10 +107,10 @@ body .nav .cards .inbetween .card .subcard {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
@@ -118,13 +118,13 @@ body .nav .cards .inbetween .card .subcard {
 body .nav .cards .inbetween .card .interact {
   background-color: #263b47;
   -webkit-transform: all 0.5s linear;
-          transform: all 0.5s linear;
+  transform: all 0.5s linear;
   position: absolute;
   height: 50px;
-  -webkit-transition: width .5s, -webkit-transform .45s;
-  transition: width .5s, -webkit-transform .45s;
-  transition: transform .45s, width .5s;
-  transition: transform .45s, width .5s, -webkit-transform .45s;
+  -webkit-transition: width 0.5s, -webkit-transform 0.45s;
+  transition: width 0.5s, -webkit-transform 0.45s;
+  transition: transform 0.45s, width 0.5s;
+  transition: transform 0.45s, width 0.5s, -webkit-transform 0.45s;
 }
 
 body .nav .cards .inbetween .card .interact a {
@@ -133,8 +133,8 @@ body .nav .cards .inbetween .card .interact a {
   font-weight: bold;
   font-size: 20px;
   font-family: "Roboto";
-  -webkit-transition: font-size .19s, color .1s;
-  transition: font-size .19s, color .1s;
+  -webkit-transition: font-size 0.19s, color 0.1s;
+  transition: font-size 0.19s, color 0.1s;
 }
 
 body .nav .cards .inbetween .card .interact a:hover {
@@ -146,10 +146,10 @@ body .nav .cards .inbetween .card .desc {
   position: absolute;
   background-color: #271425;
   height: 150px;
-  -webkit-transition: width .5s, -webkit-transform .35s;
-  transition: width .5s, -webkit-transform .35s;
-  transition: transform .35s, width .5s;
-  transition: transform .35s, width .5s, -webkit-transform .35s;
+  -webkit-transition: width 0.5s, -webkit-transform 0.35s;
+  transition: width 0.5s, -webkit-transform 0.35s;
+  transition: transform 0.35s, width 0.5s;
+  transition: transform 0.35s, width 0.5s, -webkit-transform 0.35s;
 }
 
 body .nav .cards .inbetween .card .desc p {
@@ -163,12 +163,12 @@ body .nav .cards .inbetween .card .picture {
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
   background-color: black;
-  -webkit-transition: width .5s, height .5s, -webkit-filter .45s;
-  transition: width .5s, height .5s, -webkit-filter .45s;
-  transition: width .5s, height .5s, filter .45s;
-  transition: width .5s, height .5s, filter .45s, -webkit-filter .45s;
+  -webkit-transition: width 0.5s, height 0.5s, -webkit-filter 0.45s;
+  transition: width 0.5s, height 0.5s, -webkit-filter 0.45s;
+  transition: width 0.5s, height 0.5s, filter 0.45s;
+  transition: width 0.5s, height 0.5s, filter 0.45s, -webkit-filter 0.45s;
   -webkit-filter: grayscale(100%) brightness(50%);
-          filter: grayscale(100%) brightness(50%);
+  filter: grayscale(100%) brightness(50%);
 }
 
 body .nav .cards .inbetween .card #undertale {
@@ -190,10 +190,16 @@ body .nav .cards .inbetween .card #starDV {
   background-position-y: -60px;
 }
 
+body .nav .cards .inbetween .card #thelongdrive {
+  background-image: url("../img/cards/LogoSquare.png");
+  background-size: calc(500px + 10%);
+  background-position: 400px;
+}
+
 body .nav .cards .card:hover {
   height: 550px;
   -webkit-transform: translateX(-25px);
-          transform: translateX(-25px);
+  transform: translateX(-25px);
 }
 
 body .nav .cards .card:hover .picture {
@@ -202,12 +208,12 @@ body .nav .cards .card:hover .picture {
   border-bottom-left-radius: 0px;
   border-bottom-right-radius: 0px;
   -webkit-filter: grayscale(0%);
-          filter: grayscale(0%);
+  filter: grayscale(0%);
 }
 
 body .nav .cards .card:hover .interact {
   -webkit-transform: translateY(550px);
-          transform: translateY(550px);
+  transform: translateY(550px);
   border-top-left-radius: 0px;
   border-top-right-radius: 0px;
   border-bottom-left-radius: 10px;
@@ -217,7 +223,7 @@ body .nav .cards .card:hover .interact {
 
 body .nav .cards .card:hover .desc {
   -webkit-transform: translateY(400px);
-          transform: translateY(400px);
+  transform: translateY(400px);
   border-top-left-radius: 0px;
   border-top-right-radius: 0px;
   width: 400px;
@@ -237,11 +243,11 @@ body .parwrapper .parlayer {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   background-position: top center;
   background-size: cover;
   width: 300%;
@@ -288,10 +294,10 @@ body .parwrapper .layer5 {
 body .parwrapper .layer5 #indie_g {
   font-size: 100px;
   opacity: 0%;
-  -webkit-transition: opacity .2s, -webkit-transform .5s;
-  transition: opacity .2s, -webkit-transform .5s;
-  transition: transform .5s, opacity .2s;
-  transition: transform .5s, opacity .2s, -webkit-transform .5s;
+  -webkit-transition: opacity 0.2s, -webkit-transform 0.5s;
+  transition: opacity 0.2s, -webkit-transform 0.5s;
+  transition: transform 0.5s, opacity 0.2s;
+  transition: transform 0.5s, opacity 0.2s, -webkit-transform 0.5s;
 }
 
 body .parwrapper .layer6 {
