@@ -1,0 +1,58 @@
+body {
+  background-color: burlywood;
+}
+
+header {
+  color: orangered;
+  background-image: url(img/p1_3183244_570f602e.jpg);
+  height: 1000px;
+  width: 100%;
+  margin-left: 0%;
+}
+
+#cim {
+  text-align: center;
+  font-size: 200px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+h1 {
+  color: red;
+  text-align: center;
+}
+
+#introduction {
+  color: orangered;
+  text-align: center;
+  font-size: 50px;
+}
+
+#about {
+  color: orangered;
+  text-align: center;
+  font-size: 50px;
+}
+
+#pictures {
+    color: orangered;
+    text-align: center;
+    font-size: 100px;
+}
+
+img {
+    margin-left: 25%;
+    border: 10px solid orangered;
+    border-radius: 20px;
+    width: 1000px;
+}
+
+h2 {
+    color: red;
+    font-size: 50px;
+    text-align: center;
+}
+
+a {
+    color: red;
+    font-size: 30px;
+}
