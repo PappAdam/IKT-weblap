@@ -2,7 +2,7 @@ const layers = document.getElementsByClassName("parlayer");
 
 window.onload =  function () {
     
-    alert("NYOMD MEG AZt a kurVA F11-t\n koszi :)")
+    alert("NYOMD MEG AZ F11-t\n koszi :)")
 
 }
 
